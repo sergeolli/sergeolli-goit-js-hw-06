@@ -12,8 +12,9 @@ function onFormSubmit(event) {
     
     if (mail === '' || password === '') {
          alert('All fields must be completed!');
-    }
+    } else {
+     console.log(formData)
+     form.reset();
+     }
 
-    console.log(formData)
-    form.reset();
 };

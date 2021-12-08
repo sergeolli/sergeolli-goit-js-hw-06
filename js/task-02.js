@@ -13,7 +13,7 @@ itemEl.classList.add('item');
 itemEl.textContent = element
 console.log(itemEl);
 const ingredientsEl = document.querySelector('#ingredients')
-ingredientsEl.appendChild(itemEl)
+ingredientsEl.append(itemEl)
 });
 
 
